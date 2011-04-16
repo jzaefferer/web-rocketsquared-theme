@@ -453,6 +453,7 @@ header ul a {
         width: auto;
         height: auto;
         border-bottom: 1px dotted #917C6F;
+        margin-bottom: 1em;
     }
     .lanyrd-badge a {
         margin: 0;
@@ -463,6 +464,12 @@ header ul a {
 
     .lanyrd-badge strong {
         display: block;
+        padding-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    .widget_recent_entries a {
+        font-size: 110%;
     }
 
     /* frontpage sidebar specific styling */
