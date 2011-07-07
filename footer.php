@@ -10,5 +10,18 @@
     </div>
     <span id="bottomBar"></span>
     <?php wp_footer(); ?>
+
+<script type="text/javascript">
+(function() {
+  var t   = document.createElement('script');
+  t.type  = 'text/javascript';
+  t.async = true;
+  t.id    = 'gauges-tracker';
+  t.setAttribute('data-site-id', '4e150ff8613f5d7b26000001');
+  t.src = '//secure.gaug.es/track.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(t, s);
+})();
+</script>
 </body>
 </html>
