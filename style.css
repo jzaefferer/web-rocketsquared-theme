@@ -441,7 +441,7 @@ header ul a {
     .tweets .timesince {
         margin-top: 5px;
     }
-    
+
     .lanyrd-badge ul {
         margin: 0;
         padding: 0;
@@ -635,3 +635,89 @@ footer .contactLink {
   padding: 0 4px 5px;
 }
 /* </comments> */
+
+@media screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 500px)  {
+	/* Put here mobile specific styles */
+	#wrapper, footer {
+	    width: auto;
+	    max-width: 569px;
+	    min-width: 320px;
+	}
+
+	.footerNavigation {
+	    width: inherit;
+	    top: 0;
+	    margin-top: 5px;
+	}
+
+	footer .contactLink {
+	    top: 0;
+	    margin-top: 5px;
+	}
+
+	footer {
+	    height: auto;
+	    font-size: 14px;
+	    right: 0;
+	    left: 0;
+	}
+
+	#footerSocial {
+	    margin-top: 5px;
+	    margin-left: 10px;
+	}
+
+	header, #content, footer {
+	    padding: 0 10px;
+	}
+
+	#content {
+	    padding-bottom: 85px;
+	}
+
+	header ul {
+	    float: none;
+	}
+
+	#content {
+	    padding-top: 45px;
+	}
+
+	#frontpageTeaser, #frontpageBio {
+	    float: none;
+	    width: auto;
+	}
+
+	.sidebarHome .widget_mylanyrd {
+	    margin: 0;
+	}
+
+	.sidebarHome .widget {
+	    display: block;
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 20px;
+	}
+
+	#logo {
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.posts {
+	    width: auto;
+	    float: none;
+	}
+
+	.sidebar {
+	    display: none;
+	}
+
+	.comments-template textarea {
+	    min-width: 295px;
+	    max-width: 544px;
+	}
+
+}

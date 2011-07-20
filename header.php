@@ -13,15 +13,13 @@
 <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320"/>
-<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/fav.ico" />
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<!-- Mobile specific stylesheet using media queries -->
-<link rel="stylesheet" media="only screen and (min-device-width: 320px) and (max-device-width: 569px)" href="<?php bloginfo('template_directory'); ?>/mobile.css" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/libs/js/jquery.truncator.js"></script>
