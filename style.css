@@ -641,7 +641,6 @@ footer .contactLink {
 	#wrapper, footer {
 	    width: auto;
 	    max-width: 569px;
-	    min-width: 320px;
 	}
 
 	.footerNavigation {
