@@ -214,6 +214,11 @@ ol {
     border-bottom: 2px dotted #917C6F;
 }
 
+.post .postmetadata {
+	margin-top: 13px;
+	font-size: 80%;
+}
+
 #wrapper .sidebar {
     float: right;
     height: 100%;
@@ -582,33 +587,6 @@ footer .contactLink {
 
 .linkedin-icon {
     background: url("./img/linkedin_28.png") no-repeat transparent;
-}
-
-/* <comments> */
-.gravatar{
-	float: right;
-}
-
-.comments-template{
-	margin: 10px 0 0;
-	padding: 30px 0 0;
-}
-
-.comments-template ol{
-	margin: 0;
-	padding: 0 0 15px;
-	list-style: none;
-}
-
-.comments-template ol li{
-	margin: 10px 0 0;
-	line-height: 18px;
-	padding: 0 0 10px;
-	border-bottom: 1px solid #ccc;
-}
-
-.comments-template textarea{
-	width: 500px;
 }
 
 .wp-caption {
