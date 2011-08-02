@@ -21,27 +21,27 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* </reset> */
 
@@ -215,8 +215,8 @@ ol {
 }
 
 .post .postmetadata {
-	margin-top: 13px;
-	font-size: 80%;
+  margin-top: 13px;
+  font-size: 80%;
 }
 
 #wrapper .sidebar {
@@ -615,86 +615,86 @@ footer .contactLink {
 /* </comments> */
 
 @media screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 500px)  {
-	/* Put here mobile specific styles */
-	#wrapper, footer {
-	    width: auto;
-	    max-width: 569px;
-	}
+  /* Put here mobile specific styles */
+  #wrapper, footer {
+      width: auto;
+      max-width: 569px;
+  }
 
-	.footerNavigation {
-	    width: inherit;
-	    top: 0;
-	    margin-top: 5px;
-	}
+  .footerNavigation {
+      width: inherit;
+      top: 0;
+      margin-top: 5px;
+  }
 
-	footer .contactLink {
-	    top: 0;
-	    margin-top: 5px;
-	}
+  footer .contactLink {
+      top: 0;
+      margin-top: 5px;
+  }
 
-	footer {
-	    height: auto;
-	    font-size: 14px;
-	    right: 0;
-	    left: 0;
-	}
+  footer {
+      height: auto;
+      font-size: 14px;
+      right: 0;
+      left: 0;
+  }
 
-	#footerSocial {
-	    margin-top: 5px;
-	    margin-left: 10px;
-	}
+  #footerSocial {
+      margin-top: 5px;
+      margin-left: 10px;
+  }
 
-	header, #content, footer {
-	    padding: 0 10px;
-	}
+  header, #content, footer {
+      padding: 0 10px;
+  }
 
-	#content {
-	    padding-bottom: 85px;
-	}
+  #content {
+      padding-bottom: 85px;
+  }
 
-	header ul {
-	    float: none;
-	}
+  header ul {
+      float: none;
+  }
 
-	#content {
-	    padding-top: 45px;
-	}
+  #content {
+      padding-top: 45px;
+  }
 
-	#frontpageTeaser, #frontpageBio {
-	    float: none;
-	    width: auto;
-	}
+  #frontpageTeaser, #frontpageBio {
+      float: none;
+      width: auto;
+  }
 
-	.sidebarHome .widget_mylanyrd {
-	    margin: 0;
-	}
+  .sidebarHome .widget_mylanyrd {
+      margin: 0;
+  }
 
-	.sidebarHome .widget {
-	    display: block;
-	    float: none;
-	    margin-left: auto;
-	    margin-right: auto;
-	    margin-bottom: 20px;
-	}
+  .sidebarHome .widget {
+      display: block;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+  }
 
-	#logo {
-	    float: none;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
+  #logo {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
-	.posts {
-	    width: auto;
-	    float: none;
-	}
+  .posts {
+      width: auto;
+      float: none;
+  }
 
-	.sidebar {
-	    display: none;
-	}
+  .sidebar {
+      display: none;
+  }
 
-	.comments-template textarea {
-	    min-width: 295px;
-	    max-width: 544px;
-	}
+  .comments-template textarea {
+      min-width: 295px;
+      max-width: 544px;
+  }
 
 }
